@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 80%;
+  height: 100vh;
+  color: white;
+}
+img {
+  width: 60%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.acc {
+  background-color: blue;
+  color: white;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.app {
+  background-color: transparent;
+  color: white;
+  border-width: 1px;
+  outline: none;
+  cursor: pointer;
+  border-color: white;
+}
